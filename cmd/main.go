@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"shortener-api/cmd/api/app"
+)
 
 func main() {
-	fmt.Println("First golang project!")
+	app.HelloWord()
 }
